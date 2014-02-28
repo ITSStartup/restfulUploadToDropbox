@@ -31,7 +31,7 @@ public class UploadFileService {
 	
 	private void saveToDropbox(String fileName, InputStream uploadInputStream) {
 		//here dropbox token
-		String token = "DpFkOmSumk0AAAAAAAAAAZHqHcBow3Zb9pSAQhv22FACorQHqBKsMIK4qBd_zBdA";
+		String token = "";
 			
 		EasyJavaDropBoxService easyJavaDropBoxService = new EasyJavaDropBoxServiceImpl(token);
 		try {

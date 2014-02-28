@@ -25,7 +25,7 @@ public class UploadFileService {
 		//get File Name E.g: file.txt, myphoto.png 
 		String fileName = fileDetail.getFileName();
 		saveToDropbox(fileName,uploadInputStream);
-		String output = "File upload to:" + fileName;
+		String output = "File upload to:" + fileName ;
 		return Response.status(200).entity(output).build();
 	}
 	
